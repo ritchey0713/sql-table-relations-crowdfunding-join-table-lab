@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-* Identify table example  
-* Create a new table, records, and queries
+- Identify table example
+- Create a new table, records, and queries
 
 ## Identify Table Example
 
@@ -32,7 +32,7 @@ And get back the inserted data (represented in a table below)
 
 ```text
 id                 name        quantity      aisle
-------------    ----------  ----------  ----------  
+------------    ----------  ----------  ----------
 1                Apples          2          1
 2                Oranges         4          2
 3                Peaches         6          3
@@ -84,9 +84,9 @@ tables.
 
 Now we're going to create a schema based on the following information:
 
-* A project has a title, a category, a funding goal, a start date, and an end date.
-* A user has a name and an age
-* A pledge has an amount. It belongs to a user, and it also belongs to a project.
+- A project has a title, a category, a funding goal, a start date, and an end date.
+- A user has a name and an age
+- A pledge has an amount. It belongs to a user, and it also belongs to a project.
 
 ### Create the Tables
 
@@ -105,8 +105,25 @@ Run `learn test` as you go and read the test messages for additional guidance.
 
 ## Resources
 
-* [Seldom Blog](http://blog.seldomatt.com/) - [About SQL Joins: The 3 Ring Binder Model](http://blog.seldomatt.com/blog/2012/10/17/about-sql-joins-the-3-ring-binder-model/)
-* [Coding Horror](http://blog.codinghorror.com/) - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
-* [Geeky is Awesome](http://geekyisawesome.blogspot.com/) - [SQL Joins Tutorial](http://geekyisawesome.blogspot.com/2011/03/sql-joins-tutorial.html)
+- [Seldom Blog](http://blog.seldomatt.com/) - [About SQL Joins: The 3 Ring Binder Model](http://blog.seldomatt.com/blog/2012/10/17/about-sql-joins-the-3-ring-binder-model/)
+- [Coding Horror](http://blog.codinghorror.com/) - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+- [Geeky is Awesome](http://geekyisawesome.blogspot.com/) - [SQL Joins Tutorial](http://geekyisawesome.blogspot.com/2011/03/sql-joins-tutorial.html)
+
+<!--
+what does sql do??
+
+Song.new("sone name").save
+
+@@all/sql
 
 
+sql -> tables -> rows / columns
+
+
+
+id name artist genre
+1  song_name artist_name
+
+
+@@all => placeholder for sql
+ -->
